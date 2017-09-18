@@ -1,9 +1,6 @@
 import { Component } from '@angular/core';
 
-export class Hero {
-  id: number;
-  name: string;
-}
+import { Hero } from './dummy/hero'
 
 const HEROES: Hero[] = [
   { id: 11, name: 'Mr. Nice' },
@@ -18,12 +15,12 @@ const HEROES: Hero[] = [
   { id: 20, name: 'Tornado' }
 ];
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'Tour of Heroes';
   heroes = HEROES;

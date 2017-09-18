@@ -1,3 +1,5 @@
+# my test App based on angular4 cli sceleton and basic tutorial
+
 # Angular4TestApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.

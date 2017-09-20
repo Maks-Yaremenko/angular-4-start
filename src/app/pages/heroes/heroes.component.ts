@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { HeroService } from './shared/hero.service'
+import { HeroService } from '../../shared/hero.service'
 import { Router } from '@angular/router';
 
-
-import { Hero } from './shared/hero'
+import { Hero } from '../../shared/hero'
 
 @Component({
   selector: 'my-heroes',
